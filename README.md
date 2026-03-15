@@ -1,11 +1,7 @@
-# bidirectional-counter
-## 📝 Updated `README.md` (with your name & website)
-
-```md
 # Bidirectional Wooden Stick Counter (Arduino + IR Sensors)
 
 Author: **Amir Mobasheraghdam**  
-Website: [www.nivta.de](https://www.nivta.de)
+
 
 This project implements a **bidirectional counter** using two E18-D80NK infrared proximity sensors,  
 an Arduino board (Uno/Nano), and a 16x2 LCD with I2C interface.
