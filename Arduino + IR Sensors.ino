@@ -9,7 +9,7 @@
  *  - Zählt Objekte, die sich vor den Sensoren vorbeibewegen
  *  - Vorwärtsbewegung:  Zähler +1
  *  - Rückwärtsbewegung: Zähler –1
- *
+ 
  * Funktionsweise:
  *  Zwei Sensoren nebeneinander (A links, B rechts).
  *  Erkennt A zuerst und dann B → Vorwärts (Zähler erhöhen).
