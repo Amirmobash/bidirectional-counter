@@ -135,7 +135,7 @@ File: `arduino/bidirectional_counter.ino`
  * Bidirectional Wooden Stick Counter
  *
  * Author: Amir Mobasheraghdam
- * Website: https://www.nivta.de
+ *
  *
  * Description:
  *  - Uses two E18-D80NK IR sensors and a 16x2 I2C LCD
@@ -257,7 +257,7 @@ Put this into a file named `LICENSE`:
 ```text
 MIT License
 
-Copyright (c) 2025 Amir Mobasheraghdam (www.nivta.de)
+Copyright (c) 2025 Amir Mobasheraghdam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
