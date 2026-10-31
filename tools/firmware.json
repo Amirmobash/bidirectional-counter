@@ -1,0 +1,10 @@
+{
+  "core": "arduino:avr@1.8.6",
+  "fqbn": "arduino:avr:uno",
+  "libs": [
+    "LiquidCrystal I2C@1.1.2"
+  ],
+  "sources": [
+    "Arduino + IR Sensors.ino"
+  ]
+}

@@ -101,6 +101,7 @@ unsigned long programStartTime = 0;     // Programmstartzeit
 
 // Menüvariablen
 bool menuActive = false;
+bool displayNeedsRedraw = true;
 MenuItem currentMenu = MENU_MAIN;
 byte menuPosition = 0;
 unsigned long lastButtonPress = 0;
@@ -188,7 +189,7 @@ void updateDisplay() {
   static float lastDisplayedRate = -1;
   
   // Nur aktualisieren wenn sich etwas geändert hat
-  if (counter != lastDisplayedCounter || (int)currentRate != (int)lastDisplayedRate) {
+  if (displayNeedsRedraw || counter != lastDisplayedCounter || (int)currentRate != (int)lastDisplayedRate) {
     lcd.clear();
     
     // Zeile 1: Zählerstand mit Einheit
@@ -209,6 +210,7 @@ void updateDisplay() {
     
     lastDisplayedCounter = counter;
     lastDisplayedRate = currentRate;
+    displayNeedsRedraw = false;
   }
   
   // Sensorstatus in der oberen rechten Ecke (optional)
@@ -221,6 +223,8 @@ void updateDisplay() {
  * Zeigt ein Menü an
  */
 void showMenu() {
+  // Menu text replaces the main screen even when count and rate do not change.
+  displayNeedsRedraw = true;
   lcd.clear();
   lcd.setCursor(0, 0);
   
