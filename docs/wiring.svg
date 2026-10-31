@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
+<title id="title">Bidirectional IR counter with LCD and EEPROM signal assignments</title>
+<desc id="desc">Source and selected-board pin map. Power, voltage adaptation, protection and load circuits are not specified.</desc>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="30" y="32" font-family="sans-serif" font-size="21" fill="#0f172a">Arduino Uno</text>
+<text x="30" y="59" font-family="sans-serif" font-size="15" fill="#475569">Source-derived signal map; no claim of physical verification</text>
+<rect x="30" y="80" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="102" font-family="sans-serif" font-size="16">D2</text>
+<line x1="380" y1="96" x2="455" y2="96" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="80" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="102" font-family="sans-serif" font-size="16">Sensor A input</text>
+<rect x="30" y="124" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="146" font-family="sans-serif" font-size="16">D3</text>
+<line x1="380" y1="140" x2="455" y2="140" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="124" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="146" font-family="sans-serif" font-size="16">Sensor B input</text>
+<rect x="30" y="168" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="190" font-family="sans-serif" font-size="16">D4</text>
+<line x1="380" y1="184" x2="455" y2="184" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="168" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="190" font-family="sans-serif" font-size="16">Reset button</text>
+<rect x="30" y="212" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="234" font-family="sans-serif" font-size="16">D5</text>
+<line x1="380" y1="228" x2="455" y2="228" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="212" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="234" font-family="sans-serif" font-size="16">Menu button</text>
+<rect x="30" y="256" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="278" font-family="sans-serif" font-size="16">D6</text>
+<line x1="380" y1="272" x2="455" y2="272" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="256" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="278" font-family="sans-serif" font-size="16">Optional buzzer</text>
+<rect x="30" y="300" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="322" font-family="sans-serif" font-size="16">A4 / SDA</text>
+<line x1="380" y1="316" x2="455" y2="316" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="300" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="322" font-family="sans-serif" font-size="16">LCD SDA</text>
+<rect x="30" y="344" width="350" height="32" rx="5" fill="#dbeafe"/>
+<text x="42" y="366" font-family="sans-serif" font-size="16">A5 / SCL</text>
+<line x1="380" y1="360" x2="455" y2="360" stroke="#2563eb" stroke-width="2"/>
+<rect x="455" y="344" width="510" height="32" rx="5" fill="#e2e8f0"/>
+<text x="468" y="366" font-family="sans-serif" font-size="16">LCD SCL</text>
+<text x="30" y="438" font-family="sans-serif" font-size="14" fill="#475569">Power, level shifting, driver/protection circuits and load wiring require separate verification.</text>
+</svg>

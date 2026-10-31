@@ -1,0 +1,21 @@
+name: Firmware checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: arduino/setup-arduino-cli@81d310742121c928ea9c8bbd407b4217b432ae02 # v2
+        with:
+          version: 1.3.1
+      - name: Compile all firmware alternatives
+        run: python3 tools/check_firmware.py --install
+      - name: LCD menu-exit regression tests
+        run: |
+          g++ -std=c++11 -Wall -Wextra -I tests/stubs tests/test_display.cpp -o "$RUNNER_TEMP/display-tests"
+          "$RUNNER_TEMP/display-tests"
