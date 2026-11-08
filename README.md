@@ -1,5 +1,11 @@
 # Bidirectional IR counter with LCD and EEPROM
 
+
+<p align="center"><img src="docs/images/arduino-bidirectional-ir-lcd-eeprom-counter.svg" alt="Arduino bidirectional counter with two infrared sensors and an LCD display" width="960" /></p>
+
+<sub>Illustrative project schematic; not an actual CAD export, hardware photograph, or independently tested result.</sub>
+
+
 A two-sensor sequence counter with a 16×2 I2C LCD, menu, serial commands and periodic EEPROM storage. Author: **Amir Mobasheraghdam**. A→B increments and B→A decrements the count. Sensor timing and counting behavior is preserved.
 
 ## Reproducible build
